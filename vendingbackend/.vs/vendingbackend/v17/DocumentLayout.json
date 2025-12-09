@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\user452\\Documents\\adssahjkdshfjkshjkfsahjfsd\\vendingbackend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DE07EC98-058D-43E9-97A4-DD19451C97C1}|vendingbackend.Core\\vendingbackend.Core.csproj|c:\\users\\user452\\documents\\adssahjkdshfjkshjkfsahjfsd\\vendingbackend\\vendingbackend.core\\models\\tradeapparatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE07EC98-058D-43E9-97A4-DD19451C97C1}|vendingbackend.Core\\vendingbackend.Core.csproj|solutionrelative:vendingbackend.core\\models\\tradeapparatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE07EC98-058D-43E9-97A4-DD19451C97C1}|vendingbackend.Core\\vendingbackend.Core.csproj|c:\\users\\user452\\documents\\adssahjkdshfjkshjkfsahjfsd\\vendingbackend\\vendingbackend.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE07EC98-058D-43E9-97A4-DD19451C97C1}|vendingbackend.Core\\vendingbackend.Core.csproj|solutionrelative:vendingbackend.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{57BC0355-9773-454A-AE51-DC8E8A14AE50}|vendingbackend\\vendingbackend.csproj|c:\\users\\user452\\documents\\adssahjkdshfjkshjkfsahjfsd\\vendingbackend\\vendingbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57BC0355-9773-454A-AE51-DC8E8A14AE50}|vendingbackend\\vendingbackend.csproj|solutionrelative:vendingbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57BC0355-9773-454A-AE51-DC8E8A14AE50}|vendingbackend\\vendingbackend.csproj|c:\\users\\user452\\documents\\adssahjkdshfjkshjkfsahjfsd\\vendingbackend\\vendingbackend\\vendingbackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{57BC0355-9773-454A-AE51-DC8E8A14AE50}|vendingbackend\\vendingbackend.csproj|solutionrelative:vendingbackend\\vendingbackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F7404602-2857-4F89-9189-9CA121283A16}|vendingbackend.Infrastructure\\vendingbackend.Infrastructure.csproj|c:\\users\\user452\\documents\\adssahjkdshfjkshjkfsahjfsd\\vendingbackend\\vendingbackend.infrastructure\\dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7404602-2857-4F89-9189-9CA121283A16}|vendingbackend.Infrastructure\\vendingbackend.Infrastructure.csproj|solutionrelative:vendingbackend.infrastructure\\dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57BC0355-9773-454A-AE51-DC8E8A14AE50}|vendingbackend\\vendingbackend.csproj|c:\\users\\user452\\documents\\adssahjkdshfjkshjkfsahjfsd\\vendingbackend\\vendingbackend\\vendingbackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{57BC0355-9773-454A-AE51-DC8E8A14AE50}|vendingbackend\\vendingbackend.csproj|solutionrelative:vendingbackend\\vendingbackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57BC0355-9773-454A-AE51-DC8E8A14AE50}|vendingbackend\\vendingbackend.csproj|c:\\users\\user452\\documents\\adssahjkdshfjkshjkfsahjfsd\\vendingbackend\\vendingbackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -34,12 +42,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "vendingbackend",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\user452\\Documents\\adssahjkdshfjkshjkfsahjfsd\\vendingbackend\\vendingbackend.Core\\Models\\User.cs",
+              "RelativeDocumentMoniker": "vendingbackend.Core\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\user452\\Documents\\adssahjkdshfjkshjkfsahjfsd\\vendingbackend\\vendingbackend.Core\\Models\\User.cs",
+              "RelativeToolTip": "vendingbackend.Core\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T11:55:25.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TradeApparatus.cs",
+              "DocumentMoniker": "C:\\Users\\user452\\Documents\\adssahjkdshfjkshjkfsahjfsd\\vendingbackend\\vendingbackend.Core\\Models\\TradeApparatus.cs",
+              "RelativeDocumentMoniker": "vendingbackend.Core\\Models\\TradeApparatus.cs",
+              "ToolTip": "C:\\Users\\user452\\Documents\\adssahjkdshfjkshjkfsahjfsd\\vendingbackend\\vendingbackend.Core\\Models\\TradeApparatus.cs",
+              "RelativeToolTip": "vendingbackend.Core\\Models\\TradeApparatus.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwCAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T11:39:22.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "vendingbackend.csproj",
               "DocumentMoniker": "C:\\Users\\user452\\Documents\\adssahjkdshfjkshjkfsahjfsd\\vendingbackend\\vendingbackend\\vendingbackend.csproj",
               "RelativeDocumentMoniker": "vendingbackend\\vendingbackend.csproj",
               "ToolTip": "C:\\Users\\user452\\Documents\\adssahjkdshfjkshjkfsahjfsd\\vendingbackend\\vendingbackend\\vendingbackend.csproj",
@@ -51,33 +85,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\user452\\Documents\\adssahjkdshfjkshjkfsahjfsd\\vendingbackend\\vendingbackend.Infrastructure\\DataAccess\\AppDbContext.cs",
               "RelativeDocumentMoniker": "vendingbackend.Infrastructure\\DataAccess\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\user452\\Documents\\adssahjkdshfjkshjkfsahjfsd\\vendingbackend\\vendingbackend.Infrastructure\\DataAccess\\AppDbContext.cs",
               "RelativeToolTip": "vendingbackend.Infrastructure\\DataAccess\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T10:40:42.826Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user452\\Documents\\adssahjkdshfjkshjkfsahjfsd\\vendingbackend\\vendingbackend\\Program.cs",
               "RelativeDocumentMoniker": "vendingbackend\\Program.cs",
               "ToolTip": "C:\\Users\\user452\\Documents\\adssahjkdshfjkshjkfsahjfsd\\vendingbackend\\vendingbackend\\Program.cs",
               "RelativeToolTip": "vendingbackend\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T10:30:31.429Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user452\\Documents\\adssahjkdshfjkshjkfsahjfsd\\vendingbackend\\vendingbackend\\appsettings.json",
               "RelativeDocumentMoniker": "vendingbackend\\appsettings.json",
@@ -90,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\user452\\Documents\\adssahjkdshfjkshjkfsahjfsd\\vendingbackend\\vendingbackend.Application\\Class1.cs",
               "RelativeDocumentMoniker": "vendingbackend.Application\\Class1.cs",
@@ -103,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\user452\\Documents\\adssahjkdshfjkshjkfsahjfsd\\vendingbackend\\vendingbackend.Infrastructure\\Class1.cs",
               "RelativeDocumentMoniker": "vendingbackend.Infrastructure\\Class1.cs",
@@ -113,10 +147,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T10:28:40.097Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
