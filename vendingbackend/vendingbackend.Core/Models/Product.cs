@@ -1,0 +1,12 @@
+﻿namespace vendingbackend.Core.Models;
+
+public class Product
+{
+    public int Id { get; set; }
+    public string Name { get; set; } = string.Empty;
+    public string Description { get; set; } = string.Empty;
+    public decimal Price { get; set; }
+    public uint Quantity { get; set; }
+    public uint MinimalStock { get; set; }
+    public decimal AvgDailySales { get; set; } = 0.0m;
+}

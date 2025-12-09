@@ -8,13 +8,13 @@ namespace vendingbackend.Core.Models
 {
     public class TradeApparatus
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
 
         public string Model { get; set; } = string.Empty;
 
-        public ApparatusType Type { get; set; }
+        public PayType Type { get; set; }
 
-        public float SummaryIncome { get; set; }
+        public decimal SummaryIncome { get; set; }
 
         public Guid SerialNumber { get;set; }
 
@@ -30,9 +30,9 @@ namespace vendingbackend.Core.Models
 
         public uint Resource { get; set; }
 
-        public DateOnly? NextRepireDate { get; set; }
+        public DateOnly? NextRepairDate { get; set; }
         
-        public uint RepireTime {  get; set; }
+        public uint RepairTime {  get; set; }
 
         public Status Status { get; set; }
 
@@ -40,16 +40,19 @@ namespace vendingbackend.Core.Models
 
         public DateOnly? InventarizationTime { get; set; }
         
-        public virtual User CheckedByUser { get; set; }
+        public virtual User? CheckedByUser { get; set; }
 
-        public Guid CheckedByUserId { get; set; }
+        public int? CheckedByUserId { get; set; }
+        
+        public virtual ICollection<Sales> Sales { get; set; } = new List<Sales>();
+        public virtual ICollection<Service> Services { get; set; } = new List<Service>();
     }
-    public enum ApparatusType
+    public enum PayType
     {
         CardPay,CashPay
     }
     public enum Status
     {
-        Working, OutOffOrder, InService
+        Working, OutOfOrder, InService
     }
 }

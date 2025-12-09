@@ -1,0 +1,12 @@
+E:\web dev\Vending\vendingbackend\vendingbackend.Core\bin\Debug\net9.0\vendingbackend.Core.deps.json
+E:\web dev\Vending\vendingbackend\vendingbackend.Core\bin\Debug\net9.0\vendingbackend.Core.dll
+E:\web dev\Vending\vendingbackend\vendingbackend.Core\bin\Debug\net9.0\vendingbackend.Core.pdb
+E:\web dev\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\vendingbackend.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\web dev\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\vendingbackend.Core.AssemblyInfoInputs.cache
+E:\web dev\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\vendingbackend.Core.AssemblyInfo.cs
+E:\web dev\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\vendingbackend.Core.csproj.CoreCompileInputs.cache
+E:\web dev\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\vendingbackend.Core.sourcelink.json
+E:\web dev\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\vendingbackend.Core.dll
+E:\web dev\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\refint\vendingbackend.Core.dll
+E:\web dev\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\vendingbackend.Core.pdb
+E:\web dev\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\ref\vendingbackend.Core.dll
