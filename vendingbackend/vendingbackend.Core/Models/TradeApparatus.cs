@@ -22,6 +22,8 @@ namespace vendingbackend.Core.Models
 
         public DateOnly? DateCreated { get; set; }
 
+        public DateOnly? ManufacturedDate {  get; set; } 
+
         public DateOnly? DateUpdated { get; set; }
 
         public DateOnly? LastCheckDate { get; set; }

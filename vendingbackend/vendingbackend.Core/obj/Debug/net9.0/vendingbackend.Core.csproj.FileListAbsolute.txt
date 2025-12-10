@@ -10,3 +10,15 @@ E:\web dev\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\vendingba
 E:\web dev\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\refint\vendingbackend.Core.dll
 E:\web dev\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\vendingbackend.Core.pdb
 E:\web dev\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\ref\vendingbackend.Core.dll
+C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend.Core\bin\Debug\net9.0\vendingbackend.Core.deps.json
+C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend.Core\bin\Debug\net9.0\vendingbackend.Core.dll
+C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend.Core\bin\Debug\net9.0\vendingbackend.Core.pdb
+C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\vendingbackend.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\vendingbackend.Core.AssemblyInfoInputs.cache
+C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\vendingbackend.Core.AssemblyInfo.cs
+C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\vendingbackend.Core.csproj.CoreCompileInputs.cache
+C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\vendingbackend.Core.sourcelink.json
+C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\vendingbackend.Core.dll
+C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\refint\vendingbackend.Core.dll
+C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\vendingbackend.Core.pdb
+C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\ref\vendingbackend.Core.dll

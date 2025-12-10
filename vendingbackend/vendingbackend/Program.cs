@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using vendingbackend.Infrastructure.DataAccess;
+using vendingbackend.Infrastructure.Repositories;
+using vendingbackend.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +15,7 @@ builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 
 builder.Services.AddDbContext<AppDbContext>(opt=> opt.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddScoped<ITradeApparatusRepository, TradeApparatusRepository>();
 builder.Services.AddAuthentication(opt =>
 {
     opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -41,7 +44,13 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
+//middlewares
 app.UseHttpsRedirection();
+app.UseMiddleware<ExceptionMiddleware>();
+
+//routing
+app.MapHealthChecks("/health");
+
 
 app.UseCors(opt => opt.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 

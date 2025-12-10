@@ -158,6 +158,9 @@ namespace vendingbackend.Infrastructure.Migrations
                     b.Property<DateOnly?>("LastCheckDate")
                         .HasColumnType("date");
 
+                    b.Property<DateOnly?>("ManufacturedDate")
+                        .HasColumnType("date");
+
                     b.Property<string>("Model")
                         .IsRequired()
                         .HasColumnType("text");

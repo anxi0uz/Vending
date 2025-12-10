@@ -3191,23 +3191,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dev\\.nuget\\packages\\": {},
+    "C:\\Users\\user452\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\web dev\\Vending\\vendingbackend\\vendingbackend\\vendingbackend.csproj",
+      "projectUniqueName": "C:\\Users\\user452\\Documents\\adssahjkdshfjkshjkfsahjfsd\\Vending\\vendingbackend\\vendingbackend\\vendingbackend.csproj",
       "projectName": "vendingbackend",
-      "projectPath": "E:\\web dev\\Vending\\vendingbackend\\vendingbackend\\vendingbackend.csproj",
-      "packagesPath": "C:\\Users\\dev\\.nuget\\packages\\",
-      "outputPath": "E:\\web dev\\Vending\\vendingbackend\\vendingbackend\\obj\\",
+      "projectPath": "C:\\Users\\user452\\Documents\\adssahjkdshfjkshjkfsahjfsd\\Vending\\vendingbackend\\vendingbackend\\vendingbackend.csproj",
+      "packagesPath": "C:\\Users\\user452\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user452\\Documents\\adssahjkdshfjkshjkfsahjfsd\\Vending\\vendingbackend\\vendingbackend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user452\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3216,14 +3216,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "E:\\web dev\\Vending\\vendingbackend\\vendingbackend.Infrastructure\\vendingbackend.Infrastructure.csproj": {
-              "projectPath": "E:\\web dev\\Vending\\vendingbackend\\vendingbackend.Infrastructure\\vendingbackend.Infrastructure.csproj"
+            "C:\\Users\\user452\\Documents\\adssahjkdshfjkshjkfsahjfsd\\Vending\\vendingbackend\\vendingbackend.Infrastructure\\vendingbackend.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\user452\\Documents\\adssahjkdshfjkshjkfsahjfsd\\Vending\\vendingbackend\\vendingbackend.Infrastructure\\vendingbackend.Infrastructure.csproj"
             }
           }
         }
@@ -3238,7 +3239,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -3278,24 +3279,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[9.0.11, 9.0.11]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[9.0.11, 9.0.11]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[9.0.11, 9.0.11]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[9.0.11, 9.0.11]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -3304,7 +3287,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\dev\\.dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

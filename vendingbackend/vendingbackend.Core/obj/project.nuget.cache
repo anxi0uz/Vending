@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9QIs+SaK7j4=",
+  "dgSpecHash": "Hyu3EDIkazI=",
   "success": true,
-  "projectFilePath": "E:\\web dev\\Vending\\vendingbackend\\vendingbackend.Core\\vendingbackend.Core.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\dev\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.11\\microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
-    "C:\\Users\\dev\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.11\\microsoft.windowsdesktop.app.ref.9.0.11.nupkg.sha512",
-    "C:\\Users\\dev\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.11\\microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\user452\\Documents\\adssahjkdshfjkshjkfsahjfsd\\Vending\\vendingbackend\\vendingbackend.Core\\vendingbackend.Core.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,12 @@
+C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend.Application\bin\Debug\net9.0\vendingbackend.Application.deps.json
+C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend.Application\bin\Debug\net9.0\vendingbackend.Application.dll
+C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend.Application\bin\Debug\net9.0\vendingbackend.Application.pdb
+C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend.Application\obj\Debug\net9.0\vendingbackend.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend.Application\obj\Debug\net9.0\vendingbackend.Application.AssemblyInfoInputs.cache
+C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend.Application\obj\Debug\net9.0\vendingbackend.Application.AssemblyInfo.cs
+C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend.Application\obj\Debug\net9.0\vendingbackend.Application.csproj.CoreCompileInputs.cache
+C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend.Application\obj\Debug\net9.0\vendingbackend.Application.sourcelink.json
+C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend.Application\obj\Debug\net9.0\vendingbackend.Application.dll
+C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend.Application\obj\Debug\net9.0\refint\vendingbackend.Application.dll
+C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend.Application\obj\Debug\net9.0\vendingbackend.Application.pdb
+C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend.Application\obj\Debug\net9.0\ref\vendingbackend.Application.dll
