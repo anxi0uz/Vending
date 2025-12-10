@@ -140,3 +140,4 @@ E:\web dev\Vending\vendingbackend\vendingbackend\bin\Debug\net9.0\ru\Microsoft.C
 E:\web dev\Vending\vendingbackend\vendingbackend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 E:\web dev\Vending\vendingbackend\vendingbackend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 E:\web dev\Vending\vendingbackend\vendingbackend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\web dev\Vending\vendingbackend\vendingbackend\obj\Debug\net9.0\swae.build.ex.cache
