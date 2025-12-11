@@ -10,7 +10,7 @@ using vendingbackend.Infrastructure.DataAccess;
 
 namespace vendingbackend.Infrastructure.Repositories
 {
-    public class UserRepository
+    public class UserRepository : IUserRepository
     {
         public UserRepository(AppDbContext dbContext)
         {
@@ -18,7 +18,7 @@ namespace vendingbackend.Infrastructure.Repositories
         }
 
         public AppDbContext DbContext { get; }
-        
+
         public async Task<List<UserResponse>> GetUsersAsync()
         {
             return await DbContext.Users
@@ -43,18 +43,18 @@ namespace vendingbackend.Infrastructure.Repositories
 
         public async Task<int> UpdateUserAsync(int id, UserRequest request)
         {
-            await DbContext.Users.Where(t => t.Id == id).ExecuteUpdateAsync(s=>s
-            .SetProperty(s=>s.PasswordHash,request.Password)
-            .SetProperty(s=>s.Email,request.Email)
-            .SetProperty(s=>s.role,(Role)request.Role));
+            await DbContext.Users.Where(t => t.Id == id).ExecuteUpdateAsync(s => s
+            .SetProperty(s => s.PasswordHash, request.Password)
+            .SetProperty(s => s.Email, request.Email)
+            .SetProperty(s => s.role, (Role)request.Role));
             await DbContext.SaveChangesAsync();
-            return id; 
+            return id;
         }
 
         public async Task<int> DeleteUserAsync(int id)
         {
             await DbContext.Users.Where(s => s.Id == id).ExecuteDeleteAsync();
-            return id;  
+            return id;
         }
     }
 }

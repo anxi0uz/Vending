@@ -36,18 +36,22 @@ namespace vendingbackend.Middlewares
                         statusCode = StatusCodes.Status400BadRequest;
                         message = "Ошибка валидации.";
                         break;
+
                     case KeyNotFoundException _:
                         statusCode = StatusCodes.Status404NotFound;
                         message = "Ресурс не найден.";
                         break;
+
                     case DbUpdateException _:
                         statusCode = StatusCodes.Status409Conflict;
                         message = "Ошибка в базе данных";
                         break;
+
                     case NullReferenceException _:
                         statusCode = StatusCodes.Status404NotFound;
                         message = ex.Message;
                         break;
+
                     default:
                         message = $"Необработанное исключение: {ex.GetType}\nТекст ошибки: {ex.Message}";
                         break;
