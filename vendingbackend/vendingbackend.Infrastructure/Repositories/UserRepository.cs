@@ -56,5 +56,12 @@ namespace vendingbackend.Infrastructure.Repositories
             await DbContext.Users.Where(s => s.Id == id).ExecuteDeleteAsync();
             return id;
         }
+
+        public async Task<User?> GetUserAsync(string email)
+        {
+            return await DbContext.Users
+                .Where(s => s.Email == email)
+                .FirstOrDefaultAsync();
+        }
     }
 }

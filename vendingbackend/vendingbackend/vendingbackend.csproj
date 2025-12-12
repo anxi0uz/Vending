@@ -18,6 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\vendingbackend.Application\vendingbackend.Application.csproj" />
+    <ProjectReference Include="..\vendingbackend.Core\vendingbackend.Core.csproj" />
     <ProjectReference Include="..\vendingbackend.Infrastructure\vendingbackend.Infrastructure.csproj" />
   </ItemGroup>
 

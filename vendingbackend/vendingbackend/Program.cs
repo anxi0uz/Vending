@@ -1,15 +1,20 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using vendingbackend.Application.Services;
+using vendingbackend.Core.Abstractions;
+using vendingbackend.Core.Models;
 using vendingbackend.Infrastructure.DataAccess;
 using vendingbackend.Infrastructure.Repositories;
+using vendingbackend.Mappings;
 using vendingbackend.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
+// Hate niggers
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
@@ -19,7 +24,13 @@ builder.Services.AddScoped<ITradeApparatusRepository, TradeApparatusRepository>(
 builder.Services.AddScoped<ISalesRepository, SalesRepository>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<ITokenService, TokenService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IPasswordHasher<User>,PasswordHasher<User>>();
 builder.Services.AddScoped<IProductRepository,ProductRepository>();
+builder.Services.AddScoped<ITradeApparatusService, TradeApparatusService>();
+builder.Services.AddHealthChecks();
+builder.Services.AddMemoryCache();
 builder.Services.AddAuthentication(opt =>
 {
     opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -54,6 +65,8 @@ app.UseMiddleware<ExceptionMiddleware>();
 
 //routing
 app.MapHealthChecks("/health");
+app.MapAuthEndpoints();
+app.MapTradeApparatusEndpoints();
 
 
 app.UseCors(opt => opt.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());

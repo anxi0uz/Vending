@@ -22,3 +22,15 @@ C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\ven
 C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\refint\vendingbackend.Core.dll
 C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\vendingbackend.Core.pdb
 C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\ref\vendingbackend.Core.dll
+C:\Users\PK\Documents\worldskills\Vending\vendingbackend\vendingbackend.Core\bin\Debug\net9.0\vendingbackend.Core.deps.json
+C:\Users\PK\Documents\worldskills\Vending\vendingbackend\vendingbackend.Core\bin\Debug\net9.0\vendingbackend.Core.dll
+C:\Users\PK\Documents\worldskills\Vending\vendingbackend\vendingbackend.Core\bin\Debug\net9.0\vendingbackend.Core.pdb
+C:\Users\PK\Documents\worldskills\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\vendingbackend.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PK\Documents\worldskills\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\vendingbackend.Core.AssemblyInfoInputs.cache
+C:\Users\PK\Documents\worldskills\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\vendingbackend.Core.AssemblyInfo.cs
+C:\Users\PK\Documents\worldskills\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\vendingbackend.Core.csproj.CoreCompileInputs.cache
+C:\Users\PK\Documents\worldskills\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\vendingbackend.Core.sourcelink.json
+C:\Users\PK\Documents\worldskills\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\vendingbackend.Core.dll
+C:\Users\PK\Documents\worldskills\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\refint\vendingbackend.Core.dll
+C:\Users\PK\Documents\worldskills\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\vendingbackend.Core.pdb
+C:\Users\PK\Documents\worldskills\Vending\vendingbackend\vendingbackend.Core\obj\Debug\net9.0\ref\vendingbackend.Core.dll

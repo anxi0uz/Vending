@@ -13,7 +13,29 @@ public class TradeApparatusRepository : ITradeApparatusRepository
     {
         _appDbContext = appDbContext;
     }
-
+    public async Task<TradeApparatusResponse?> GetTradeApparatusByIdAsync(int id)
+    {
+        return await _appDbContext.TradeApparatus
+            .Where(s => s.Id == id)
+            .Select(s=>new TradeApparatusResponse(s.Id,
+            s.Model,
+            s.Type.ToString(),
+            s.SummaryIncome,
+            s.SerialNumber,
+            s.FirmName,
+            s.DateCreated,
+            s.DateUpdated,
+            s.LastCheckDate,
+            s.NextCheckInterval,
+            s.Resource,
+            s.NextRepairDate,
+            s.RepairTime,
+            s.Status.ToString(),
+            s.CountryOfManufacturer,
+            s.InventarizationTime,
+            s.CheckedByUserId))
+            .FirstOrDefaultAsync();
+    }
     public async Task<List<TradeApparatusResponse>> GetAllTradesAsync()
     {
         return await _appDbContext.TradeApparatus
@@ -46,7 +68,7 @@ public class TradeApparatusRepository : ITradeApparatusRepository
             SummaryIncome = request.SummaryIncome,
             SerialNumber = request.SerialNumber,
             FirmName = request.FirmName,
-            DateCreated = request.DateCreated,
+            DateCreated = DateOnly.FromDateTime(DateTime.UtcNow),
             DateUpdated = request.DateUpdated,
             LastCheckDate = request.LastCheckDate,
             NextCheckInterval = request.NextCheckInterval,
