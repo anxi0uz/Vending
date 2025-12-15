@@ -28,9 +28,9 @@ namespace vendingbackend.Mappings
                 return await service.DeleteTradeApparatusAsync(id);
             });
 
-            group.MapPost("/", async (ITradeApparatusService service, int id) =>
+            group.MapPost("/", async (ITradeApparatusService service, TradeApparatusRequest request) =>
             {
-                return await service.DeleteTradeApparatusAsync(id);
+                return await service.CreateTradeApparatusAsync(request);
             });
             return group;
         }

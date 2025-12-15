@@ -6,6 +6,7 @@ using System.Text;
 using vendingbackend.Application.Services;
 using vendingbackend.Core.Abstractions;
 using vendingbackend.Core.Models;
+using vendingbackend.Hubs;
 using vendingbackend.Infrastructure.DataAccess;
 using vendingbackend.Infrastructure.Repositories;
 using vendingbackend.Mappings;
@@ -23,8 +24,11 @@ builder.Services.AddDbContext<AppDbContext>(opt=> opt.UseNpgsql(builder.Configur
 builder.Services.AddScoped<ITradeApparatusRepository, TradeApparatusRepository>();
 builder.Services.AddScoped<ISalesRepository, SalesRepository>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddSignalR();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ITokenService, TokenService>();
+builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IServicesService, ServicesService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IPasswordHasher<User>,PasswordHasher<User>>();
 builder.Services.AddScoped<IProductRepository,ProductRepository>();
@@ -67,7 +71,7 @@ app.UseMiddleware<ExceptionMiddleware>();
 app.MapHealthChecks("/health");
 app.MapAuthEndpoints();
 app.MapTradeApparatusEndpoints();
-
+app.MapHub<NotificationHub>("/notifications");
 
 app.UseCors(opt => opt.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 
