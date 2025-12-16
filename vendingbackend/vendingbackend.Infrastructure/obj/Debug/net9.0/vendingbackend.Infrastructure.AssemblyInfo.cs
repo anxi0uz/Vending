@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("vendingbackend.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b680c58f85140fe8a3c19cbc1a7f66af215d2f8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95e28e26f8f084035b5aea4591c7101378488385")]
 [assembly: System.Reflection.AssemblyProductAttribute("vendingbackend.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("vendingbackend.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

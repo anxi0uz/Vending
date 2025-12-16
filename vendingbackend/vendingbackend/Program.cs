@@ -24,7 +24,6 @@ builder.Services.AddDbContext<AppDbContext>(opt=> opt.UseNpgsql(builder.Configur
 builder.Services.AddScoped<ITradeApparatusRepository, TradeApparatusRepository>();
 builder.Services.AddScoped<ISalesRepository, SalesRepository>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
-builder.Services.AddSignalR();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IProductService, ProductService>();
@@ -35,6 +34,7 @@ builder.Services.AddScoped<IProductRepository,ProductRepository>();
 builder.Services.AddScoped<ITradeApparatusService, TradeApparatusService>();
 builder.Services.AddHealthChecks();
 builder.Services.AddMemoryCache();
+builder.Services.AddSignalR();
 builder.Services.AddAuthentication(opt =>
 {
     opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -71,6 +71,8 @@ app.UseMiddleware<ExceptionMiddleware>();
 app.MapHealthChecks("/health");
 app.MapAuthEndpoints();
 app.MapTradeApparatusEndpoints();
+app.MapProductEndpoints();
+app.MapServiceEndpoints();
 app.MapHub<NotificationHub>("/notifications");
 
 app.UseCors(opt => opt.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
