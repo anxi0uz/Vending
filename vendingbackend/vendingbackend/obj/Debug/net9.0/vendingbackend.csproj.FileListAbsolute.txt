@@ -140,7 +140,6 @@ E:\web dev\Vending\vendingbackend\vendingbackend\bin\Debug\net9.0\ru\Microsoft.C
 E:\web dev\Vending\vendingbackend\vendingbackend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 E:\web dev\Vending\vendingbackend\vendingbackend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 E:\web dev\Vending\vendingbackend\vendingbackend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\web dev\Vending\vendingbackend\vendingbackend\obj\Debug\net9.0\swae.build.ex.cache
 C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend\obj\Debug\net9.0\vendingbackend.csproj.AssemblyReference.cache
 C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend\obj\Debug\net9.0\rpswa.dswa.cache.json
 C:\Users\user452\Documents\adssahjkdshfjkshjkfsahjfsd\Vending\vendingbackend\vendingbackend\obj\Debug\net9.0\vendingbackend.GeneratedMSBuildEditorConfig.editorconfig
@@ -428,3 +427,7 @@ C:\Users\PK\Documents\worldskills\Vending\vendingbackend\vendingbackend\obj\Debu
 C:\Users\PK\Documents\worldskills\Vending\vendingbackend\vendingbackend\obj\Debug\net9.0\vendingbackend.pdb
 C:\Users\PK\Documents\worldskills\Vending\vendingbackend\vendingbackend\obj\Debug\net9.0\vendingbackend.genruntimeconfig.cache
 C:\Users\PK\Documents\worldskills\Vending\vendingbackend\vendingbackend\obj\Debug\net9.0\ref\vendingbackend.dll
+E:\web dev\Vending\vendingbackend\vendingbackend\bin\Debug\net9.0\Newtonsoft.Json.dll
+E:\web dev\Vending\vendingbackend\vendingbackend\bin\Debug\net9.0\System.Net.WebSockets.WebSocketProtocol.dll
+E:\web dev\Vending\vendingbackend\vendingbackend\bin\Debug\net9.0\vendingbackend.Application.dll
+E:\web dev\Vending\vendingbackend\vendingbackend\bin\Debug\net9.0\vendingbackend.Application.pdb

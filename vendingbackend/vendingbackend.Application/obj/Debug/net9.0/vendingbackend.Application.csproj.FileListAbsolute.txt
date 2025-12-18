@@ -26,3 +26,19 @@ C:\Users\PK\Documents\worldskills\Vending\vendingbackend\vendingbackend.Applicat
 C:\Users\PK\Documents\worldskills\Vending\vendingbackend\vendingbackend.Application\obj\Debug\net9.0\refint\vendingbackend.Application.dll
 C:\Users\PK\Documents\worldskills\Vending\vendingbackend\vendingbackend.Application\obj\Debug\net9.0\vendingbackend.Application.pdb
 C:\Users\PK\Documents\worldskills\Vending\vendingbackend\vendingbackend.Application\obj\Debug\net9.0\ref\vendingbackend.Application.dll
+E:\web dev\Vending\vendingbackend\vendingbackend.Application\bin\Debug\net9.0\vendingbackend.Application.deps.json
+E:\web dev\Vending\vendingbackend\vendingbackend.Application\bin\Debug\net9.0\vendingbackend.Application.dll
+E:\web dev\Vending\vendingbackend\vendingbackend.Application\bin\Debug\net9.0\vendingbackend.Application.pdb
+E:\web dev\Vending\vendingbackend\vendingbackend.Application\bin\Debug\net9.0\vendingbackend.Core.dll
+E:\web dev\Vending\vendingbackend\vendingbackend.Application\bin\Debug\net9.0\vendingbackend.Core.pdb
+E:\web dev\Vending\vendingbackend\vendingbackend.Application\obj\Debug\net9.0\vendingbackend.Application.csproj.AssemblyReference.cache
+E:\web dev\Vending\vendingbackend\vendingbackend.Application\obj\Debug\net9.0\vendingbackend.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\web dev\Vending\vendingbackend\vendingbackend.Application\obj\Debug\net9.0\vendingbackend.Application.AssemblyInfoInputs.cache
+E:\web dev\Vending\vendingbackend\vendingbackend.Application\obj\Debug\net9.0\vendingbackend.Application.AssemblyInfo.cs
+E:\web dev\Vending\vendingbackend\vendingbackend.Application\obj\Debug\net9.0\vendingbackend.Application.csproj.CoreCompileInputs.cache
+E:\web dev\Vending\vendingbackend\vendingbackend.Application\obj\Debug\net9.0\vendingbackend.Application.sourcelink.json
+E:\web dev\Vending\vendingbackend\vendingbackend.Application\obj\Debug\net9.0\vendingb.EDA3E2B8.Up2Date
+E:\web dev\Vending\vendingbackend\vendingbackend.Application\obj\Debug\net9.0\vendingbackend.Application.dll
+E:\web dev\Vending\vendingbackend\vendingbackend.Application\obj\Debug\net9.0\refint\vendingbackend.Application.dll
+E:\web dev\Vending\vendingbackend\vendingbackend.Application\obj\Debug\net9.0\vendingbackend.Application.pdb
+E:\web dev\Vending\vendingbackend\vendingbackend.Application\obj\Debug\net9.0\ref\vendingbackend.Application.dll

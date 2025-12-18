@@ -16,7 +16,7 @@ namespace vendingbackend.Mappings
             group.MapPost("/register", async (IAuthService service,[FromBody] UserRequest request) =>
             {
                 return await service.Register(request);
-            });
+            }).RequireAuthorization();
             return group;
         }
     }

@@ -8,7 +8,7 @@ namespace vendingbackend.Mappings
     {
         public static IEndpointRouteBuilder MapProductEndpoints(this IEndpointRouteBuilder builder)
         {
-            var group = builder.MapGroup("/product");
+            var group = builder.MapGroup("/product").RequireAuthorization();
 
             group.MapGet("/", async (IProductService service) =>
             {

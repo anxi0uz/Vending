@@ -7,7 +7,7 @@ namespace vendingbackend.Mappings
     {
         public static IEndpointRouteBuilder MapTradeApparatusEndpoints(this IEndpointRouteBuilder builder)
         {
-            var group = builder.MapGroup("/trade-apparatus");
+            var group = builder.MapGroup("/trade-apparatus").RequireAuthorization();
             group.MapGet("/",async (ITradeApparatusService service) =>
             {
                 return await service.GetAllTradeApparatusesAsync();

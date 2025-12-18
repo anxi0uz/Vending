@@ -13,11 +13,16 @@ namespace vendingbackend.Infrastructure.DataAccess
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
         }
+        
+        
         public DbSet<TradeApparatus>  TradeApparatus { get; set; }
         public DbSet<Product>  Products { get; set; }
         public DbSet<User>  Users { get; set; }
         public DbSet<Service>  Services { get; set; }
         public DbSet<Sales> Sales { get; set; }
+        public DbSet<NotificationLog> NotificationLogs { get; set; }
+        
+        
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             var ta = modelBuilder.Entity<TradeApparatus>();
