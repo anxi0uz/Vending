@@ -67,6 +67,9 @@ if (app.Environment.IsDevelopment())
 
 //middlewares
 app.UseHttpsRedirection();
+app.UseAuthentication();
+app.UseAuthorization();
+app.UseCors(opt => opt.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 app.UseMiddleware<ExceptionMiddleware>();
 
 //routing
@@ -77,6 +80,5 @@ app.MapProductEndpoints();
 app.MapServiceEndpoints();
 app.MapHub<NotificationHub>("/notifications");
 
-app.UseCors(opt => opt.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 
 app.Run();
